@@ -12,4 +12,10 @@
 ![Lot Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/0c812312558b3d9f44bc354c45bc3d4f3ce76b16/Pictures/Lot%20Summary.png)
 
 
+![Overall T Test](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Overall%20T%20Test.png)
 
+
+![Total Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Total%20Summary.png)
+
+
+![Variables](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Variables.png)
