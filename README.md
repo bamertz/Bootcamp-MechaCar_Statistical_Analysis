@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ### AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. The deliverables below are used to provide insights that may help the manufacturing team.
-__
+___
 
 # Deliverable 1: Linear Regression to Predict MPG
 
@@ -11,7 +11,7 @@ __
 
 Both the Vehicle length and Ground Clearance have a low chance of providing random amounts of variance. Vehicle length has a probability value of 2.60e-12 and ground clearance has a probability value of 5.21e-08. The p-value of the linear regression analysis is 5.35e-11 which is less than the significance level of .05%. Therefore, the null-hypothesis can be rejected,and the slope of the linear model is not zero. The R-squared value is 0.7149, which means a little over 71% of the variability of the dependent variable (mpg) is explained using this linear model.
 
-__
+___
 
 
 # Deliverable 2: Create Visualizations for the Trip Analysis
