@@ -14,7 +14,7 @@ _____
 
 ![Variables](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Variables.png)
 
-Both the Vehicle length and Ground Clearance have a low chance of providing random amounts of variance. The P-value of the linear regression analysis is 5.35e-11 which is smaller than the assumed significance level of .05%. Therefore, we can reject the null hypothesis, and the slope of our linear model is not zero. The R-squared value is 0.7149, which means roughly 71% of the variability of our dependent variable (mpg) is explained using this linear model.
+Both the Vehicle length and Ground Clearance have a low chance of providing random amounts of variance. Vehicle length has a probability value of 2.60e-12 and ground clearance has a probability value of 5.21e-08. The p-value of the linear regression analysis is 5.35e-11 which is less than the significance level of .05%. Therefore, we can reject the null hypothesis, and the slope of our linear model is not zero. The R-squared value is 0.7149, which means roughly 71% of the variability of our dependent variable (mpg) is explained using this linear model.
 _______
 
 # Deliverable 2: Create Visualizations for the Trip Analysis
