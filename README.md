@@ -10,10 +10,12 @@ _____
 ### 2. Is the slope of the linear model considered to be zero? Why or why not?
 ### 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-
+![Variables](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Variables.png)
 _______
 
 # Deliverable 2: Create Visualizations for the Trip Analysis
+
+
 
 ### The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
 
@@ -22,6 +24,9 @@ _______
 
 ### 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+![Total Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Total%20Summary.png)
+
+![Lot Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/0c812312558b3d9f44bc354c45bc3d4f3ce76b16/Pictures/Lot%20Summary.png)
 _______
 
 # Deliverable 3: T-Tests on Suspension Coils
@@ -56,14 +61,3 @@ _______
 _____
 
 
-
-
-
-![Lot Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/0c812312558b3d9f44bc354c45bc3d4f3ce76b16/Pictures/Lot%20Summary.png)
-
-
-
-![Total Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Total%20Summary.png)
-
-
-![Variables](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Variables.png)
