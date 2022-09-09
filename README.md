@@ -20,18 +20,26 @@ ___
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
 
 The suspension coil’s PSI continuous variable across all manufacturing lots
-The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+The following PSI metrics for all 3 lots combined: mean, median, variance, and standard deviation.
 
-1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
+Total Summary:
 ![Total Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Total%20Summary.png)
 
+The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+Lot Summary:
 ![Lot Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/0c812312558b3d9f44bc354c45bc3d4f3ce76b16/Pictures/Lot%20Summary.png)
+
+Lots 1 & 2 are similar with both medians reporting at 1500 PSIand the means just .02 over that for Lot 2. However, Lot 3 measures at 1496.14 for its mean with a variance of 170.28.
+
+Since the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total but Lot 3 does not meet it individually.
+
+
 _______
 
 # Deliverable 3: T-Tests on Suspension Coils
 
-Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+The following T-Tests were created in R to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 ![Lot 1 T Test](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/32b4b7709c63254834fb42eac45c2576db036f5d/Pictures/Lot%201%20T%20Test.png)
 
@@ -43,6 +51,7 @@ Using your knowledge of R, perform t-tests to determine if all manufacturing lot
 
 ![Overall T Test](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Overall%20T%20Test.png)
 
+Lots 1 & 2 are statistically similar with both of them recording P-values of 0.6072, while lot 3 has a P-value of 0.04168. Since the signifigance
 _______
 
 
