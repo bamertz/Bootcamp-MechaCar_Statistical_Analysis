@@ -23,11 +23,13 @@ The suspension coil’s PSI continuous variable across all manufacturing lots
 The following PSI metrics for all 3 lots combined: mean, median, variance, and standard deviation.
 
 Total Summary:
+
 ![Total Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Total%20Summary.png)
 
 The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 Lot Summary:
+
 ![Lot Summary](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/0c812312558b3d9f44bc354c45bc3d4f3ce76b16/Pictures/Lot%20Summary.png)
 
 Lots 1 & 2 are similar with both medians reporting at 1500 PSIand the means just .02 over that for Lot 2. However, Lot 3 measures at 1496.14 for its mean with a variance of 170.28.
@@ -51,21 +53,24 @@ The following T-Tests were created in R to determine if all manufacturing lots a
 
 ![Overall T Test](https://github.com/bamertz/MechaCar_Statistical_Analysis/blob/8ecb1f07100eb18ae00248784fb01bc7d0227bb3/Pictures/Overall%20T%20Test.png)
 
-Lots 1 & 2 are statistically similar with both of them recording P-values of 0.6072, while lot 3 has a P-value of 0.04168. Since the signifigance
+Lots 1 & 2 are statistically similar with both of them recording P-values above the significance level of .05, while lot 3 has a P-value of 0.04168. This means Lot 3's supsension coil PSI is statistically different from the population mean.
 _______
 
 
 # Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 ## Study Design: MechaCar vs Competition
 
+This is a statistical study to compare the performance of the MechaCar vehicles against performance of vehicles from other manufacturers using R. 
 
+- The metrics related to performance that I would test between MechaCar and other vehicles would be horspower, acceleration, miles per gallon, and cost to manufacture. 
+  
+- Hypothesis: There is no statistical difference between MechaCar and other competitor vehicles cost to manufacture. 
+ 
+- Null Hypothesis:There is statistical difference between MechaCar and other competitor vehicles cost to manufacture. 
+   
+- Conduct a T-Test to determine if there is a statistical difference between the MechaCar and its competitors to see if given the same criteria, the MechaCar is a lower cost to manufacture and therefore more profitable.
 
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
-
-1. What metric or metrics are you going to test?
-2. What is the null hypothesis or alternative hypothesis?
-3. What statistical test would you use to test the hypothesis? And why?
-4. What data is needed to run the statistical test?
+- The data needed to do these statiscial tests would be each vehicles miles per gallons or fuel efficiancy ratings, vehicle cost, vehicle cost to manufacture, acceleration times, and horsepower.
 
 _____
 
